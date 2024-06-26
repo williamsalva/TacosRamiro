@@ -9,7 +9,7 @@ type ICenteredFooterProps = {
   iconDeliveryAppList: ReactNode;
   iconContactUsList: ReactNode;
   iconMaps: ReactNode;
-  children: ReactNode;
+  children?: ReactNode;
 };
 
 const CenteredFooter = (props: ICenteredFooterProps) => (
