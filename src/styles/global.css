@@ -1,0 +1,14 @@
+@tailwind base;
+@font-face {
+  font-family: 'rock-webfont';
+  src: url('/assets/fonts/rock-webfont.woff') format('woff');
+}
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+.font-rock-webfont {
+  font-family: 'rock-webfont';
+}
