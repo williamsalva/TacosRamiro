@@ -8,6 +8,7 @@ type ICenteredFooterProps = {
   iconList: ReactNode;
   iconDeliveryAppList: ReactNode;
   iconContactUsList: ReactNode;
+  iconContactUsCommentsList: ReactNode;
   iconMaps: ReactNode;
   children?: ReactNode;
 };
@@ -15,11 +16,11 @@ type ICenteredFooterProps = {
 const CenteredFooter = (props: ICenteredFooterProps) => (
   <div className="text-center">
     <nav>
-      <ul className="navbar mt-5 flex flex-row justify-center text-xl font-medium text-gray-800">
+      <ul className="navbar mt-0 flex flex-row justify-center text-xl font-medium text-gray-800">
         {props.children}
       </ul>
     </nav>
-    <h2 className="mt-8 text-xl font-semibold text-gray-800">
+    <h2 className="mt-1 text-xl font-semibold text-gray-800">
       ¡Síguenos en redes!
     </h2>
     <div className="mt-8 flex justify-center">
@@ -47,7 +48,13 @@ const CenteredFooter = (props: ICenteredFooterProps) => (
     <div className="mt-8 flex justify-center">
       <FooterIconList>{props.iconMaps}</FooterIconList>
     </div>
-
+    <h2 className="mt-8 text-xl font-semibold text-gray-800">
+      {' '}
+      Sugerencias y comentarios escribenos por WhatsApp
+    </h2>
+    <div className="mt-8 flex justify-center">
+      <FooterIconList>{props.iconContactUsCommentsList}</FooterIconList>
+    </div>
     <div className="mt-8 text-sm">
       <FooterCopyright />
     </div>

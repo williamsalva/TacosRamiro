@@ -1,6 +1,6 @@
 export const AppConfig = {
-  site_name: 'Starter',
+  site_name: 'Pedritos',
   title: 'Pedritos',
-  description: 'Starter code for your Nextjs Boilerplate with Tailwind CSS',
-  locale: 'en',
+  description: 'PEDRITOS “Los ahogaditos de Guadalajara”',
+  locale: 'es',
 };
