@@ -9,10 +9,10 @@ type INavbarProps = {
 const NavbarTwoColumns = (props: INavbarProps) => (
   <div className="flex flex-wrap items-center justify-center  ">
     <nav>
-      <ul className="navbar flex items-center justify-center text-center text-2xl font-medium text-custom-text sm:text-[.5rem] md:text-2xl">
+      <ul className="navbar flex flex-col items-center justify-center text-center text-2xl font-medium text-custom-text sm:flex-row sm:justify-between sm:text-[.5rem] md:text-2xl">
         {React.Children.map(props.children, (child) => (
           <li>
-            <button className="rounded bg-main-pedritos px-4 py-2 font-bold text-white">
+            <button className="my-2 rounded-md bg-main-pedritos px-4 py-2 font-bold text-white">
               {child}
             </button>
           </li>
