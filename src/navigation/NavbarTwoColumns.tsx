@@ -1,4 +1,5 @@
 import type { ReactNode } from 'react';
+import React from 'react';
 
 type INavbarProps = {
   logo: ReactNode;
@@ -9,7 +10,13 @@ const NavbarTwoColumns = (props: INavbarProps) => (
   <div className="flex flex-wrap items-center justify-center  ">
     <nav>
       <ul className="navbar flex items-center justify-center text-center text-2xl font-medium text-custom-text sm:text-[.5rem] md:text-2xl">
-        {props.children}
+        {React.Children.map(props.children, (child) => (
+          <li>
+            <button className="rounded bg-main-pedritos px-4 py-2 font-bold text-white">
+              {child}
+            </button>
+          </li>
+        ))}
       </ul>
     </nav>
 

@@ -37,6 +37,7 @@ module.exports = {
           800: '#2d3748',
           900: '#1a202c',
         },
+        'main-pedritos': '#9E2253',
         'custom-amber': '#FFE6B9',
         'custom-text': '#194554',
         'title-pedritos': '#9E2253',
