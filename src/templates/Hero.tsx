@@ -1,24 +1,28 @@
 import Image from 'next/image';
+import Link from 'next/link';
+
+import { NavbarTwoColumns } from '@/navigation/NavbarTwoColumns';
 
 import { Background } from '../background/Background';
 import { HeroOneButton } from '../hero/HeroOneButton';
 import { Section } from '../layout/Section';
+import { Logo } from './Logo';
 
 const Hero = () => (
   <Background color="bg-custom-amber">
     <Section yPadding="py-6">
-      <div className="flex items-center justify-center">
-        {/* <NavbarTwoColumns logo={<Logo xl />}>
+      <NavbarTwoColumns logo={<Logo xl />}>
         <li>
-          <Link href="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template">
-            GitHub
-          </Link>
+          <Link href="#WhatsApp">Haz tu pedido por WhatsApp</Link>
         </li>
         <li>
-          <Link href="/">Sign in</Link>
+          <Link href="#redesSociales">Redes Sociales</Link>
         </li>
-      </NavbarTwoColumns> */}
+      </NavbarTwoColumns>
+    </Section>
 
+    <Section yPadding="py-6">
+      <div className="flex items-center justify-center">
         <Image
           src="/assets/images/logoPedritos.png"
           alt="Sentry"

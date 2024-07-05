@@ -20,7 +20,7 @@ const CenteredFooter = (props: ICenteredFooterProps) => (
         {props.children}
       </ul>
     </nav>
-    <h2 className="mt-1 text-xl font-semibold text-gray-800">
+    <h2 id="redesSociales" className="mt-1 text-xl font-semibold text-gray-800">
       ¡Síguenos en redes!
     </h2>
     <div className="mt-8 flex justify-center">
@@ -34,7 +34,7 @@ const CenteredFooter = (props: ICenteredFooterProps) => (
     <div className="mt-8 flex justify-center">
       <FooterIconList>{props.iconDeliveryAppList}</FooterIconList>
     </div>
-    <h2 className="mt-8 text-xl font-semibold text-gray-800">
+    <h2 id="WhatsApp" className="mt-8 text-xl font-semibold text-gray-800">
       {' '}
       ¡Haz tu pedido por WhatsApp!
     </h2>
