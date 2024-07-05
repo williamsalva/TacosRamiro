@@ -13,7 +13,7 @@ const Hero = () => (
     <Section yPadding="py-6">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
-          <Link href="#WhatsApp">Haz tu pedido por WhatsApp</Link>
+          <Link href="#WhatsApp">WhatsApp</Link>
         </li>
         <li>
           <Link href="#redesSociales">Redes Sociales</Link>
