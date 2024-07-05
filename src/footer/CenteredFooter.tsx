@@ -43,7 +43,7 @@ const CenteredFooter = (props: ICenteredFooterProps) => (
     </div>
     <h2 className="mt-8 text-xl font-semibold text-gray-800">
       {' '}
-      ¡Ubícanos en Maps!
+      ¡Nos encantaría recibir un comentario!
     </h2>
     <div className="mt-8 flex justify-center">
       <FooterIconList>{props.iconMaps}</FooterIconList>

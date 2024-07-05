@@ -195,7 +195,7 @@ const Footer = () => (
                 alt="Delivery App"
               />
             </Link>
-            <Link href="http://www.didi-food.com/es-MX/food/store/5764607582690608692/Pedritos-(Suc-Matriz)/5764620203870848573/Taco-Ahogado/ https://www.didi-food.com/es-MX/food/store/5764607582690608692/Pedritos-(Suc-Matriz)/5764620203870848573/Taco-Ahogado/">
+            <Link href="https://www.didi-food.com/es-MX/food/store/5764607582690608692/Pedritos-(Suc-Matriz)/5764620203870848573/Taco-Ahogado/">
               <img
                 width="80%"
                 src="/assets/images/didifood.png"
@@ -242,7 +242,7 @@ const Footer = () => (
         }
         iconMaps={
           <>
-            <Link href="https://maps.app.goo.gl/MKXS7so1sFmhXuMw7?g_st=iw">
+            <Link href="https://g.page/r/CbYHXNhbBql_EAE/review">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 aria-label="Google Maps"
