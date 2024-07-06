@@ -50,7 +50,7 @@ const CenteredFooter = (props: ICenteredFooterProps) => (
     </div>
     <h2 className="mt-8 text-xl font-semibold text-gray-800">
       {' '}
-      Sugerencias y comentarios escribenos por WhatsApp
+      Sugerencias y comentarios escríbenos por WhatsApp
     </h2>
     <div className="mt-8 flex justify-center">
       <FooterIconList>{props.iconContactUsCommentsList}</FooterIconList>
