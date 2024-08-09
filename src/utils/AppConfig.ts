@@ -1,6 +1,6 @@
 export const AppConfig = {
-  site_name: 'Pedritos',
-  title: 'Pedritos',
-  description: 'PEDRITOS “Los ahogaditos de Guadalajara”',
+  site_name: 'Tacos Ramiro',
+  title: 'Tacos Ramiro',
+  description: 'Tacos Ramiro desde 1990',
   locale: 'es',
 };
