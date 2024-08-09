@@ -4,6 +4,11 @@
   src: url('/assets/fonts/rock-webfont.woff') format('woff');
 }
 
+@font-face {
+  font-family: 'subversia-regular';
+  src: url('/assets/fonts/subversia-regular.otf') format('opentype');
+}
+
 @tailwind components;
 
 @tailwind utilities;
@@ -11,4 +16,8 @@
 
 .font-rock-webfont {
   font-family: 'rock-webfont';
+}
+
+.font-subversia-regular {
+  font-family: 'subversia-regular';
 }
